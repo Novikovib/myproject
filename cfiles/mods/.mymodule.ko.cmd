@@ -1,0 +1,1 @@
+cmd_/home/storm/cfiles/mods/mymodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/storm/cfiles/mods/mymodule.ko /home/storm/cfiles/mods/mymodule.o /home/storm/cfiles/mods/mymodule.mod.o;  true
